@@ -1,6 +1,20 @@
 <?php
-    // Includes the php file to generate errors for the user
-include('addError.php');
+        // Includes the php file to generate errors for the user
+    include('addError.php');
+    error_reporting(0);
+    // Starts a session to save the log-in information
+    session_start();
+
+    // Establishes a connection to the database
+    $conn = mysqli_connect($_SESSION["host"], $_SESSION["usr"], 
+                    $_SESSION["pass"], $_SESSION["db"]);
+
+    if (!$conn)
+    {
+        // Redirects user back to login page if the user tries to manually navigate
+        // to the homepage
+    header("location: login.php");
+    }
 ?>
 
 <!DOCTYPE html>

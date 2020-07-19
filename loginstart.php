@@ -12,7 +12,7 @@
             // The host connection is set to "localhost" and the database is the 
             // same as their username
         session_start();
-        $_SESSION["host"] = "localhost:1111";
+        $_SESSION["host"] = "localhost";
         $_SESSION["usr"] = $_POST["usr"];
         $_SESSION["pass"] = $_POST["pass"];
         $_SESSION["db"] = "dealership";

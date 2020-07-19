@@ -1,4 +1,5 @@
 <?php
+    error_reporting(0);
         // Starts a session to save the log-in information
     session_start();
 
@@ -8,9 +9,9 @@
 
     if (!$conn)
     {
-            // Terminates execution if the connection is invalid
-        die("<p>Could not connect: ".mysqli_connect_error()."<br>".
-            "Click <a href=login.php>here</a> to return to the login page.</p>");
+            // Redirects user back to login page if the user tries to manually navigate
+            // to the homepage
+        header("location: login.php");
     }
         // Runs a query to create a table for the vehicle database if one doesn't
         // already exist
