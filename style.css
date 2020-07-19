@@ -1,0 +1,127 @@
+h1 {
+    color: rgba(210, 210, 210);
+    font-size: 35px;
+}
+p {
+    color: rgba(210, 210, 210);
+    text-align: center;
+    font: 16px "Times New Roman", sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    height: 50px;
+}
+td {
+    padding: 10px;
+}
+#err {
+    font-size: 16px;
+    color: rgb(210, 210, 210);
+}
+#text {
+    font-size: 16px;
+    color: rgb(210, 210, 210);
+    font: 16px "Times New Roman", sans-serif;
+}
+#login_screen {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("./images/car.png"), url("./images/connectwork.png");
+    background-position: 50% 20%;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+}
+#login {
+    color: rgb(210, 210, 210);
+    margin: 200px 480px;
+    border: solid rgb(120, 120, 120);
+    border-width: 5px;
+    border-style: outset;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+}
+#webpage {
+    background-image: url("./images/tesla.png"), url("./images/audi.png"), url("./images/bmw.png"), url("./images/connectwork.png");
+    font: 16px "Times New Roman", sans-serif;
+    background-position: 5% 70%, 95% 70%, center 220%;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+}
+#add_page {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("./images/hondas.png"), url("./images/connectwork.png");
+    background-position: center 95%;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+}
+#list_page {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("./images/mclaren.png"), url("./images/lambo.png"), url("./images/connectwork.png");
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat, repeat; 
+    background-attachment: fixed, fixed;
+}
+#search_page {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("./images/connectwork.png");
+}
+#db_menu {
+    color: rgb(210, 210, 210);
+    margin: 80px 480px;
+    padding: 25px;
+    border: solid rgb(120, 120, 120);
+    border-width: 5px;
+    border-style: outset;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    font: 16px "Times New Roman", sans-serif;
+}
+#add_menu {
+    color: rgb(210, 210, 210);
+    margin: 80px 460px;
+    padding: 25px;
+    border: solid rgb(120, 120, 120);
+    border-width: 5px;
+    border-style: outset;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    font: 16px "Times New Roman", sans-serif;
+}
+#list_menu {
+    color: rgb(210, 210, 210);
+    margin: 80px 310px;
+    padding: 25px;
+    border: solid rgb(120, 120, 120);
+    border-width: 5px;
+    border-style: outset;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    font: 16px "Times New Roman", sans-serif;
+}
+#search_menu {
+    color: rgb(210, 210, 210);
+    margin: 140px 420px;
+    border: solid rgb(120, 120, 120);
+    border-width: 5px;
+    border-style: outset;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+}
+.left {
+    width: 35%;
+    float: left;
+    text-align: right;
+    font: 16px "Times New Roman", sans-serif;
+}
+.right {
+    width: 50%;
+    margin-left: 5px;
+    float: left;
+    font: 16px "Times New Roman", sans-serif;
+}
+a {
+    color: white;
+}
+a:visited {
+    color: slategrey;
+}
