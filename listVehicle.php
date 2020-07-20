@@ -1,3 +1,7 @@
+<?php 
+        // Continues the login session for the user
+    session_start();
+?>
 <!DOCTYPE html>
 <head>
             <!-- Adds the css and makes the title of the tab the following -->
@@ -11,9 +15,6 @@
             <h1>Vehicle Inventory</h1>
             <input type="submit" name="home" value="Home"><br><br>
             <?php
-                    // Continues the login session for the user
-                session_start();
-
                     // Establishes a connection to the database
                 $conn = mysqli_connect($_SESSION['host'], $_SESSION['usr'],
                                        $_SESSION['pass'], $_SESSION['db']);
@@ -53,6 +54,6 @@
     if (isset($_POST['home']))
     {
             // Sends the user to the homepage if they press the home button
-        header ('location: homepage.php');
+        header("location: homepage.php");
     }
 ?>

@@ -18,7 +18,7 @@ td {
 }
 #err {
     font-size: 16px;
-    color: rgb(210, 210, 210);
+    color: rgb(230, 20, 20);
 }
 #text {
     font-size: 16px;
@@ -34,7 +34,7 @@ td {
 }
 #login {
     color: rgb(210, 210, 210);
-    margin: 200px 480px;
+    margin: 14.5% 37.2%;
     border: solid rgb(120, 120, 120);
     border-width: 5px;
     border-style: outset;
@@ -124,4 +124,21 @@ a {
 }
 a:visited {
     color: slategrey;
+}
+.button {
+    cursor: pointer;
+    text-align: center;
+    color: rgb(210, 210, 210);
+    background-color: rgb(90, 90, 90);
+    padding: 1.3% 5%;
+    font-size: 14px;
+    font: 16px "Times New Roman", sans-serif;
+    border: solid rgb(120, 120, 120);
+    border-style: outset;
+}
+.button:hover {
+    background-color: rgb(130, 130, 130);
+}
+.button:active {
+    transform: translateY(2px);
 }
